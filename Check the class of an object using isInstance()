@@ -1,0 +1,20 @@
+class Test {
+// first class
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    // create an object
+    Test obj = new Test();
+
+    // check if obj is an object of Test1
+    if(Test.class.isInstance(obj)){
+      System.out.println("obj is an object of the Test class");
+    }
+    else {
+      System.out.println("obj is not an object of the Test class");
+    }
+  }
+}
